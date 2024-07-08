@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Job Sarthi",
+    "imageSrc": "projects/job_sarthi_model.png",
+    "description": "The Job Sarthi MERN project aims to streamline and recruitment process for both job seekers and employers.",
+    "skills": ["React", "Express", "Node","MongoDB","JWT"],
+    "demo": "https://job-sarthi-app.netlify.app",
+    "source": "https://github.com/VaibhavMishra045/Job_Sarthi"
+  },
+  {
+    "title": "Blog Api Project",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a RESTful API for a blog Platform.The API enables users to perform CRUD operations on blog posts.",
+    "skills": ["EJS","Node", "Express", "MongoDB","Mongoose"],
+    "demo": "https://damp-reef-35472-a11bfc7fcc98.herokuapp.com/",
+    "source": "https://github.com/VaibhavMishra045/Blog-api-project"
+  },
+  {
+    "title": "React Portfolio website",
+    "imageSrc": "projects/my_portfolio.png",
+    "description": "A platform that showcases my skills, projects, and professional journey. Designed with React's powerful frontend capabilities.",
+    "skills": ["React","Bootstrap", "Node"],
+    "demo": "",
+    "source": "https://github.com/VaibhavMishra045/React_Portfolio"
+  },
+  {
+    "title": "Color Recall Challenge",
+    "imageSrc": "projects/memory_based.png",
+    "description": "It is a classic memory game that challenges players to repeat a sequence of lights and sounds in increasing order of difficulty.",
+    "skills": ["HTML","CSS", "JavaScript"],
+    "demo": "https://vaibhavmishra045.github.io/Color-Recall-Challenge/",
+    "source": "https://github.com/VaibhavMishra045/Color-Recall-Challenge"
+  }
+]
+
+

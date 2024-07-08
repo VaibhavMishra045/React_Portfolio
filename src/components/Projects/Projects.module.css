@@ -1,0 +1,90 @@
+/* @import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+} */
+
+@import "../../vars.css";
+
+/* Project Container Styles */
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Project Title Styles */
+.title {
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+/* Projects Grid Styles */
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center; /* Center-align title for better readability on smaller screens */
+  }
+
+  .projects {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .projects {
+    gap: 8px;
+  }
+}
